@@ -1,8 +1,8 @@
 
 if (!isServer) exitwith {};
-private ["_spawnPt", "_squadInf", "_spawnee", "_wp"];
+private ["_unitsInf", "_spawnPt", "_squadInf", "_spawnee", "_wp"];
 
-unitsInf = [
+_unitsInf = [
         "CAF_AG_EUR_PK","CAF_AG_EUR_PK",
         "CAF_AG_EUR_RPK",
         "CAF_AG_EUR_AK74GL",
