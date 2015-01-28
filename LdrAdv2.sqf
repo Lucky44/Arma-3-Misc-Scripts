@@ -33,4 +33,6 @@ _wp setWaypointTimeout [20,40,60];
 _wp = _squadInf addWaypoint [getMarkerPos "LdrAdv2WP2",40];
 _wp setWaypointType "MOVE";
 
-["<t size='1.5'>" + "Hostile squad observed approximately 850m east" + "</t>",0.05,0.3,10,-1,0,3010] spawn bis_fnc_dynamicText;
+[{
+  ["<t size='1.5'>" + "Hostile squad observed approximately 850m east" + "</t>",0.05,0.3,10,-1,0,3010] spawn bis_fnc_dynamicText;
+}, "BIS_fnc_spawn", true, false] call BIS_fnc_MP;
