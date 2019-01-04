@@ -1,0 +1,117 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//LARROW's BLACKLIST VA CRATE WORK://////////////////////////////////////////////////////////////////////////////
+
+//NOTE: the following must be included in the class CfgFunctions list in this file:	#include "LARs\override_VA_templates\functions\functions.hpp"
+
+//Show RPT debug info
+LARs_overrideVA_debug = 1;
+
+//Display client message if they load an inventory with items that are not allowed
+//0 - disabled;  >0 means time to show message
+LARs_overrideVA_showMsg = 10;
+
+//Limit VA & loadout items to...
+//0 = only items added to arsenal via addVirtual#Cargo
+//1 = all items not in LARs_overrideVA_blackList << Lucky44
+LARs_overrideVA_whiteList = 1;
+
+//Items in this list will be removed from the VA and from any VA loadouts the player loads
+//see LARs_overrideVA_whiteList above
+LARs_overrideVA_blackList[] = {
+
+
+
+//Titan AT Backpacks (assembles with low tripod to static AT)
+	"B_AT_01_weapon_F",
+	"I_AT_01_weapon_F",
+	"O_AT_01_weapon_F",
+
+//Titan AT launchers
+	"launch_Titan_short_F",
+	"launch_B_Titan_short_F",
+	"launch_B_Titan_short_tna_F",
+	"launch_O_Titan_short_F",
+	"launch_I_Titan_short_F",
+	"launch_I_Titan_short_ghex_F",
+	"launch_O_Titan_short_ghex_F",
+	"rhs_weap_fgm148",
+	"launch_NLAW_F",
+
+/*
+//Titan AA launchers
+	"launch_Titan_F", //does this do anything? I doubt it
+	"launch_B_Titan_F",
+	"launch_B_Titan_tna_F",
+	"launch_O_Titan_F",
+	"launch_O_Titan_ghex_F",
+	"launch_I_Titan_F",
+*/
+
+/*
+//high-power optics
+	"optic_aco",
+	"optic_aco_smg",
+	"optic_hamr",
+	"optic_sos",
+	"optic_holosight",
+	"optic_mrd",
+	"optic_dms",
+	"optic_lrps",
+	"optic_ams",
+	"optic_ams_khk",
+	"optic_ams_snd",
+	"optic_holosight_smg",
+	"optic_aco_grn",
+	"optic_mrco",
+	"optic_khs_old",
+//NV optics:
+	"optic_nvs",
+//Thermal optics
+	"optic_tws",
+	"optic_tws_mg",
+	"optic_nightstalker",
+*/
+
+//autonomous turret backpacks:
+    "I_GMG_01_A_weapon_F",
+    "B_GMG_01_A_weapon_F",
+    "O_GMG_01_A_weapon_F",
+    "I_HMG_01_A_weapon_F",
+    "B_HMG_01_A_weapon_F",
+    "O_HMG_01_A_weapon_F",
+
+//Mortar backpacks
+    "I_Mortar_01_support_F",
+    "B_Mortar_01_support_F",
+    "O_Mortar_01_support_F",
+    "I_Mortar_01_weapon_F",
+    "B_Mortar_01_weapon_F",
+    "O_Mortar_01_weapon_F",
+    "B_Mortar_01_weapon_grn_F",
+    "B_Mortar_01_support_grn_F",
+
+	"RHS_M252_Bipod_Bag",
+	"RHS_M252_Gun_Bag",
+	"RHS_Podnos_Gun_Bag",
+	"RHS_Podnos_Bipod_Bag",
+
+//UAV backpacks
+	//"B_UAV_01_backpack_F",
+	//"O_UAV_01_backpack_F",
+	//"I_UAV_01_backpack_F",
+
+//Magazines
+	"rhsusf_mag_10Rnd_STD_50BMG_mk211",
+
+//Thermal/NVGs
+	"NVGogglesB_gry_F",
+	"NVGogglesB_grn_F",
+	"NVGogglesB_blk_F",
+
+//Thermal Viper Helmets
+    "Headgear_H_HelmetO_ViperSP_hex_F",
+    "Headgear_H_HelmetO_ViperSP_ghex_F"
+};
+
+//////////////////End of LARROWs VA Blacklist work//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
